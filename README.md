@@ -1,22 +1,22 @@
-# The Message Generator  \(subject to change :expressionless:)
+# The Message Generator  (subject to change :expressionless:)
 
-## Table of Contents
+## **Table of Contents**
 
 1. Objective
 
 2. Materials
 
-3. Methods
+3. Though Process
 
-4. Extras
+4. Try to Make?
 
 ## Objective
 
 + The purpose of this project is to create a message generator program using JavaScript.
 
-+ Each time a User runs the program a new message should be randomly given to the user.
++ There should be at least 3 different messages concated together
 
-+ There should be at least 3 different messages, or pieces of data
++ Each time a User runs the program a new message should be randomly given to the user.
 
 ## Materials
 
@@ -26,7 +26,7 @@
 
 + Prettier
 
-## Though Process
+## Thought Process
 
 + Make an hash table (??) that has key value pairs with the key being the number we're going to randomize to, and the value being the message
 
@@ -35,8 +35,21 @@
     2. If that number in Hash.keys()
     3. return the Hash\[key] value as console.log(func)
 
-## Extras
++ A good way think of this a using the Guild Character tag you get in the "Monster Hunter" series
+    1. Three messages to concat into one tag
 
-+ Make this a Spy Game, where the game gives the message, and if the user answer right, they will catch the agent.
+    2. 1, and 3 are from the same data-set/array
 
-+ Make it a Fortune Teller Machine.
+    3. 2 connects them towards one another
+
+    4. Example:
+
+        + "Lone Wolf" "of" "Tomato Plant"
+
+        + "Tomato Plant" "of" "Lone Wolf" etc
+
+## Try to Make?
+
++ Make this a Spy Game, where the game gives the message, and if the user answer right, they will catch the agent?
+
++ Make it a Fortune Teller Machine?
