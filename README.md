@@ -6,7 +6,7 @@
 
 2. Materials
 
-3. Though Process
+3. Thought Process
 
 4. Try to Make?
 
