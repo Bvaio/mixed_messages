@@ -1,21 +1,14 @@
 const Messages = {
-  0: 'No Fear',
-  1: 'The world is your oyster',
-  2: 'Snow brings the warmth of the suns',
+  subjectWord: ['Lone Wolf', 'Cabbage', 'Big Spider', 'Solid Cheese', 'Rhino', 'Aviation', 'Expert'],
+  centerWord: ['to', 'from', 'the', 'glass', 'titled', 'named', 'fixing', 'mastering', 'finds', 'finding', 'looking', 'vs'],
 };
 
 const generateMesssage = (HashTable) => {
-  let quote = '';
+  const randomOne = Math.floor(Math.random() * HashTable.subjectWord.length);
+  const randomTwo = Math.floor(Math.random() * HashTable.centerWord.length);
+  const randomThree = Math.floor(Math.random() * HashTable.subjectWord.length);
 
-  const hashTableLength = Object.keys(HashTable).length;
-
-  const randomNumber = Math.floor(Math.random() * hashTableLength);
-
-  if (randomNumber in HashTable) {
-    quote = HashTable[randomNumber];
-  }
-
-  return console.log(quote);
+  return console.log(`${HashTable.subjectWord[randomOne]} ${HashTable.centerWord[randomTwo]} ${HashTable.subjectWord[randomThree].toLowerCase()}`);
 };
 
 generateMesssage(Messages);
