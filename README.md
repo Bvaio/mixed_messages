@@ -4,7 +4,7 @@
 
 1. Objective
 
-2. Materials
+2. Materials Used
 
 3. Thought Process
 
@@ -18,13 +18,15 @@
 
 + Each time a User runs the program a new message should be randomly given to the user.
 
-## Materials
+## Materials Used
 
-+ Text Editor / IDE : Visual Studio Code
++ Text Editor / IDE : Visual Studio Code by Microsoft
 
-+ EsLint
++ Javascript ES6+
 
-+ Prettier
++ Terminal: zsh  \
+```cd .../yourJavascriptFileLocation```  \
+```node mixedMessages.js```
 
 ## Thought Process
 
