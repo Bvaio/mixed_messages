@@ -28,14 +28,21 @@
 
 ## Thought Process
 
-+ Make an hash table (??) that has key value pairs with the key being the number we're going to randomize to, and the value being the message
++ ~~Make an hash table (??) that has key value pairs with the key being the number we're going to randomize to, and the value being the message~~
 
-+ Create a function that takes the HashTable, and when called will:
-    1. Generate value that will Math.random()*hash.length
-    2. If that number in Hash.keys()
-    3. return the Hash\[key] value as console.log(func)
++ ~~Create a function that takes the HashTable, and when called will:~~
+    1. ~~Generate value that will Math.random()*hash.length~~
+    2. ~~If that number in Hash.keys()~~
+    3. ~~return the Hash\[key] value as console.log(func)~~
 
-+ A good way think of this a using the Guild Character tag you get in the "Monster Hunter" series
++ Make an object with an array of words to use
+
++ Create a function that will:
+    1. Generate a random index number for each message to input
+
+    2. return a message with the help of [string formating](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
+
++ A good way to think of this the Hunter title you make in the "Monster Hunter" series
     1. Three messages to concat into one tag
 
     2. 1, and 3 are from the same data-set/array
@@ -50,6 +57,8 @@
 
 ## Try to Make?
 
-+ Make this a Spy Game, where the game gives the message, and if the user answer right, they will catch the agent?
++ Make this a Spy Game, where the game gives the message, and if the user answer right, they'll catch the agent?
 
 + Make it a Fortune Teller Machine?
+
++ Make that Hunter title idea you took from Monster Hunter :upside_down_face:?
